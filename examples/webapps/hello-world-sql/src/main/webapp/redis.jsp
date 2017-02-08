@@ -24,6 +24,7 @@
   <title>Sample Application Database JSP Page</title>
 </head>
 <br/>
+<p>Click <a href="index.html">here</a> to go back to the main page.</p>
 <body bgcolor=white>
 
 <table border="0">

@@ -54,6 +54,13 @@ String redisUrl=System.getProperty("brooklyn.example.redis.host");
 if (redisUrl!=null) {
 %>
 <li><a href="redis.jsp">Redis chatroom</a></li>
+<% }
+
+String rabbitMqUrl=System.getProperty("brooklyn.example.rabbitMq.host");
+//Host should be supplied e.g. "-Dbrooklyn.example.rabbitMq.host=localhost"
+if (rabbitMqUrl!=null) {
+%>
+<li><a href="rabbitMq.jsp">RabbitMQ queue</a></li>
 <% } %>
 
 <%
